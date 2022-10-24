@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #00004d;
 }
 
 .footer {
@@ -59,8 +60,8 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .hero {
-    max-width: 70%;
+    max-width: 85%;
   }
 }
