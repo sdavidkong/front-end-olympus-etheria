@@ -21,7 +21,7 @@ export default function Home() {
           alt="An image of a badass african god surrounded by ether"
         />
         <h2>Coming Soon</h2>
-        <h2>Winter 2022</h2>
+        <h2>November 2022</h2>
       </main>
 
       <footer className={styles.footer}>
