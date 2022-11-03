@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import { BsTwitter } from "react-icons/bs";
 import styles from "../styles/Home.module.css";
 import Header from "../components/header";
 
@@ -14,20 +14,33 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        {" "}
-        <img
-          className={styles.hero}
-          src="/god11.png"
-          alt="An image of a badass african god surrounded by ether"
-        />
+        <div className={styles.heroBorder}>
+          <img
+            className={styles.hero}
+            src="/god11.png"
+            alt="An image of a badass african god surrounded by ether"
+          />
+        </div>
+
         <h2>Coming Soon</h2>
         <h2>November 2022</h2>
       </main>
 
       <footer className={styles.footer}>
+        <div className={styles.twitterIconDiv}>
+          {" "}
+          <a
+            className={styles.twitterLink}
+            href="https://twitter.com/OlympusEtheria"
+          >
+            <BsTwitter size={28} />
+          </a>
+        </div>
+
         <h3>An NFT Series Generated using Dall-E 2 by OpenAI</h3>
         <div className={styles.footerDescription}>
           <a
+            className={styles.twitterLink}
             href="https://twitter.com/ShuaiDavidKong"
             target="_blank"
             rel="noopener noreferrer"
