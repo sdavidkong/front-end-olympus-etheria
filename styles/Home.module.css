@@ -20,6 +20,19 @@
   border-radius: 0 1rem 1rem 0;
 }
 
+.galleryNavContainer {
+  display: flex;
+  width: 90vw;
+}
+
+.galleryNav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
 .navlink {
   transition: 0.1s ease;
 }
