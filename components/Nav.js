@@ -20,10 +20,14 @@ const Nav = () => {
           </Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/gallery">
+          <Link href="/gallery/goddesses">
             <a
               className={
-                router.pathname == "/gallery" ? styles.active : styles.navlink
+                router.pathname == "/gallery/goddesses" ||
+                router.pathname == "/gallery/gods" ||
+                router.pathname == "/gallery/immutables"
+                  ? styles.active
+                  : styles.navlink
               }
             >
               Gallery
