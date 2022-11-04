@@ -171,12 +171,16 @@
 }
 
 @media (max-width: 525px) {
+  .main {
+    min-height: 80vh;
+  }
+
   .heroBorder {
     width: 85%;
     height: auto;
   }
   .h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   .hero {
     width: 100%;
