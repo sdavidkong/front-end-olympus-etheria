@@ -11,8 +11,8 @@ export default function Home() {
         />
       </div>
 
-      <h2>Coming Soon</h2>
-      <h2>November 2022</h2>
+      <h2>Get Ready</h2>
+      <h2>Minting on November 16, 2022</h2>
     </div>
   );
 }

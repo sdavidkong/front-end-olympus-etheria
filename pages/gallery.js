@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.main}>
-      HELLOOOOO THIS IS THE GALLERY
+      GALLERY COMING SOON
       {/* <div className={styles.heroBorder}>
         <img
           className={styles.hero}
