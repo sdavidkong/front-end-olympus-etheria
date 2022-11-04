@@ -7,6 +7,43 @@
   background: #00004d;
 }
 
+.nav {
+  list-style-type: none;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  transition: 0.5s ease;
+  display: inline-block;
+}
+
+.navlink {
+  transition: 0.1s ease;
+}
+
+.navlink:hover,
+.active {
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82,
+    #f6f6f6
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 3s ease alternate infinite;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -53,7 +90,7 @@
   );
   border-radius: calc(2 * var(--borderWidth));
   z-index: 2;
-  animation: shine 3s ease alternate infinite;
+  animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
 }
 
@@ -66,11 +103,14 @@
 }
 
 .h1 {
-  font-size: 5rem;
+  font-size: 4rem;
+  padding-bottom: 0.7rem;
   margin-bottom: 0rem;
+  margin-left: 0;
   min-height: 0.8rem;
-
-  text-align: center;
+  padding-left: 2rem;
+  text-align: left;
+  border-bottom: 1px solid #eaeaea;
 
   background: linear-gradient(
     60deg,
@@ -84,7 +124,7 @@
     #6fba82,
     #f6f6f6
   );
-  background-size: 200% auto;
+  background-size: 250% auto;
 
   color: #000;
   background-clip: text;
@@ -92,7 +132,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  animation: shine 3s ease alternate infinite;
+  animation: animatedgradient 3s ease alternate infinite;
 }
 
 .twitterIconDiv {

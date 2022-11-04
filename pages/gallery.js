@@ -3,16 +3,16 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.main}>
-      <div className={styles.heroBorder}>
+      GALLERY COMING SOON
+      {/* <div className={styles.heroBorder}>
         <img
           className={styles.hero}
           src="/god11.png"
           alt="An image of a badass african god surrounded by ether"
         />
-      </div>
-
-      <h2>Get Ready</h2>
-      <h2>Minting on November 16, 2022</h2>
+      </div> */}
+      {/* <h2>Coming Soon</h2>
+      <h2>November 2022</h2> */}
     </div>
   );
 }
