@@ -10,6 +10,7 @@ export default function GalerryImage(props) {
           alt="An image of a divine being"
         />
       </div>
+      <p className={styles.imgName}>{props.name}</p>
     </div>
   );
 }

@@ -7,19 +7,19 @@ export default function Home() {
     <>
       <GalleryNav />
       <div className={styles.galleryMain}>
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
-        <GalerryImage img="/goddesses/01.png" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/goddesses/01.png" name="Athena The Imperator" />
       </div>
     </>
   );
