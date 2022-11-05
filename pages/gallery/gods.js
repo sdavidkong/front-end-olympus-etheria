@@ -25,24 +25,41 @@ export default function Home() {
           img="/gods/29AkhenatenTheDiscerning.png"
           name="Akhenaten"
         />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
-        <GalerryImage img="/gods/01.png" name="Athena The Imperator" />
+        <GalerryImage img="/gods/31RyuginTheConspirator.png" name="Ryugin" />
+        <GalerryImage
+          img="/gods/33KhemkhaengTheGoldenRuler.png"
+          name="Khemkhaeng"
+        />
+        <GalerryImage img="/gods/35CastanedaTheMystic.png" name="Castaneda" />
+        <GalerryImage
+          img="/gods/43BehanzinTheIndestructable.png"
+          name="Behanzin"
+        />
+        <GalerryImage img="/gods/44HaraldTheLightNavigator.png" name="Harald" />
+        <GalerryImage img="/gods/47CalakmulTheGuardian.png" name="Calakmul" />
+        <GalerryImage img="/gods/48HeraclesTheEnchanted.png" name="Heracles" />
+        <GalerryImage img="/gods/49MizuchiTheYoungDragon.png" name="Mizuchi" />
+        <GalerryImage img="/gods/50RahulTheScientist.png" name="Rahul" />
+        <GalerryImage img="/gods/53HermesTheSwift.png" name="Hermes" />
+        <GalerryImage img="/gods/54ZenoTheUnshackled.png" name="Zeno" />
+        <GalerryImage img="/gods/58BaoZhengTheJust.png" name="BaoZheng" />
+        <GalerryImage img="/gods/64LucienTheCunning.png" name="Lucien" />
+        <GalerryImage img="/gods/65IdrisTheOrator.png" name="Idris" />
+        <GalerryImage img="/gods/66KasperovTheTactician.png" name="Kasperov" />
+        <GalerryImage
+          img="/gods/69ArmstrongTheRuleMaker.png"
+          name="Armstrong"
+        />
+        <GalerryImage
+          img="/gods/71AndersonTheEarthFather.png"
+          name="Anderson"
+        />
+        <GalerryImage img="/gods/72TenjinThePoet.png" name="Tenjin" />
+        <GalerryImage
+          img="/gods/73ValdemarTheAmalgamator.png"
+          name="Valdemar"
+        />
+        <GalerryImage img="/gods/74XoBuTheTrickster.png" name="Xobu" />
       </div>
     </>
   );
