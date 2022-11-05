@@ -51,7 +51,10 @@ export default function Home() {
           img="/immutables/63ParvatiTheGlowingImmutable.png"
           name="Parvati"
         />
-        <GalerryImage img="/immutables/68.png" name="Animus" />
+        <GalerryImage
+          img="/immutables/68AnimusThePrismatic.png"
+          name="Animus"
+        />
         <GalerryImage
           img="/immutables/75SilenceTheImperatorsImmutable.png"
           name="Silence"
