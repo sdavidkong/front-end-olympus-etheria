@@ -90,7 +90,7 @@ export default function Home() {
           img="/goddesses/67GriseldaTheMagician.png"
           name="Griselda"
         />
-        <GalerryImage img="/goddesses/70LetoTheEccentric.png" name="leto" />
+        <GalerryImage img="/goddesses/70LetoTheEccentric.png" name="Leto" />
       </div>
     </>
   );
