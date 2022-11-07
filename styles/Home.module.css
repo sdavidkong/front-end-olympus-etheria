@@ -2,9 +2,26 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: #00004d;
+  align-items: center;
+}
+
+.homeSection {
+  display: flex;
+  padding: 1rem 2rem 0.5rem 2rem;
   justify-content: center;
   align-items: center;
-  background: #00004d;
+}
+.homeText1 {
+  max-width: 50%;
+  padding-right: 4rem;
+  font-size: 1.4rem;
+}
+
+.homeText2 {
+  max-width: 50%;
+  font-size: 1.4rem;
+  padding-left: 4rem;
 }
 
 .nav {
@@ -83,6 +100,7 @@
 }
 
 .heroBorder:after {
+  max-height: 29rem;
   content: "";
   position: absolute;
   top: calc(-1 * var(--borderWidth));
@@ -154,7 +172,6 @@
   justify-content: center;
   align-items: center;
   background: #00004d;
-  display: flex;
 }
 
 .h1 {
@@ -221,17 +238,6 @@
 }
 
 @media (max-width: 525px) {
-  .main {
-    min-height: 80vh;
-  }
-
-  .heroBorder {
-    width: 85%;
-    height: auto;
-  }
-  .h1 {
-    margin-bottom: 0rem;
-  }
   .hero {
     width: 100%;
   }
@@ -240,6 +246,26 @@
 @media (max-height: 800px) {
   .h1 {
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .homeSection {
+    flex-direction: column;
+  }
+
+  .homeText1 {
+    max-width: 90%;
+    padding-right: 0;
+
+    font-size: 1.4rem;
+  }
+
+  .homeText2 {
+    max-width: 90%;
+    font-size: 1.4rem;
+    align-items: center;
+    padding-left: 0;
   }
 }
 
