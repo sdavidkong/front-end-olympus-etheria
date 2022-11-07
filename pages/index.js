@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -59,9 +60,9 @@ export default function Home() {
             Each divine being is represented by their own NFT, and possesses a
             Special Ability as well as various Adornments that make them truly
             unique. You can view all of these beings in the{" "}
-            <a className={styles.navlink} href="/gallery/goddesses">
-              Gallery
-            </a>
+            <Link href="/gallery/goddesses">
+              <a className={styles.navlink}>Gallery</a>
+            </Link>
             .
           </p>
         </div>
