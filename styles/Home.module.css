@@ -53,6 +53,28 @@
   padding-left: 0;
 }
 
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.infoText {
+  max-width: 95%;
+  font-size: 1.4rem;
+  align-items: center;
+  padding-bottom: 1.7rem;
+}
+.infoText2 {
+  max-width: 95%;
+  font-size: 1.4rem;
+  align-items: center;
+  padding-bottom: 1.7rem;
+  padding-top: 2rem;
+}
 .navlink {
   transition: 0.1s ease;
 }
