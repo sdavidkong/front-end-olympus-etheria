@@ -5,6 +5,15 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.homeSection}>
+        <div>
+          <div className={styles.heroBorder}>
+            <img
+              className={styles.hero}
+              src="/goddesses/01.png"
+              alt="An image of a badass african god surrounded by ether"
+            />
+          </div>
+        </div>
         <div className={styles.homeText1}>
           {" "}
           <h3>Welcome to the Realm of Divine Beings</h3>
@@ -23,28 +32,9 @@ export default function Home() {
             through the unique descriptions included with each NFT.
           </p>
         </div>
-        <div>
-          <div className={styles.heroBorder}>
-            <img
-              className={styles.hero}
-              src="/goddesses/01.png"
-              alt="An image of a badass african god surrounded by ether"
-            />
-          </div>
-        </div>
       </div>
 
       <div className={styles.homeSection}>
-        <div>
-          <div className={styles.heroBorder}>
-            <img
-              className={styles.hero}
-              src="/immutables/55PrometheusThePerfectImmutable.png"
-              alt="An image of a badass african god surrounded by ether"
-            />
-          </div>
-        </div>
-
         <div className={styles.homeText2}>
           <h3>Gods, Goddesses, & Immutables</h3>
           <p>
@@ -65,6 +55,15 @@ export default function Home() {
             </Link>
             .
           </p>
+        </div>
+        <div>
+          <div className={styles.heroBorder}>
+            <img
+              className={styles.hero}
+              src="/immutables/55PrometheusThePerfectImmutable.png"
+              alt="An image of a badass african god surrounded by ether"
+            />
+          </div>
         </div>
       </div>
 

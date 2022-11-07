@@ -14,14 +14,14 @@
 }
 .homeText1 {
   max-width: 50%;
-  padding-right: 4rem;
+  padding-left: 4rem;
   font-size: 1.4rem;
 }
 
 .homeText2 {
   max-width: 50%;
   font-size: 1.4rem;
-  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .nav {
@@ -256,7 +256,7 @@
 
   .homeText1 {
     max-width: 90%;
-    padding-right: 0;
+    padding-left: 0;
 
     font-size: 1.4rem;
   }
@@ -265,7 +265,7 @@
     max-width: 90%;
     font-size: 1.4rem;
     align-items: center;
-    padding-left: 0;
+    padding-right: 0;
   }
 }
 
