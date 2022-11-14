@@ -25,8 +25,8 @@ export default function Home() {
           -Public minting will begin at an unspecified time on Nov. 16, 2022.
           There is no pre-sale or allow list. <br></br>
           <br></br>
-          -Mint price will be announced two days prior, on Nov. 14th. There will
-          be a limit of 1 mint per unique wallet.<br></br>
+          -Mint price is 0.1 Eth per NFT. There will be a limit of 1 mint per
+          unique wallet.<br></br>
         </p>
       </div>
       <div>
