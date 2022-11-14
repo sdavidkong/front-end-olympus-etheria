@@ -67,7 +67,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h2>Get Ready</h2>
+      <h2>Mint Price: 0.1 ETH Limit 1 per wallet</h2>
       <h2>Minting on November 16, 2022</h2>
     </div>
   );
