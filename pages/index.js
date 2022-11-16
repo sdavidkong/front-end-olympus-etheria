@@ -68,7 +68,11 @@ export default function Home() {
       </div>
 
       <h2>Mint Price: 0.1 ETH Limit 1 per wallet</h2>
-      <h2>Minting on November 16, 2022</h2>
+      <h2>
+        <Link href="https://opensea.io/collection/olympus-etheria-official">
+          <a className={styles.navlink}>View On OpenSea</a>
+        </Link>
+      </h2>
     </div>
   );
 }
