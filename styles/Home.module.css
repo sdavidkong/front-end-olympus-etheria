@@ -6,6 +6,9 @@
   align-items: center;
 }
 
+.mintButton {
+  padding: 2rem;
+}
 .homeSection {
   display: flex;
   padding: 1rem 2rem 0.5rem 2rem;
@@ -35,6 +38,10 @@
   border-top: 4px solid #eaeaea;
   border-right: 4px solid #eaeaea;
   border-radius: 0 1rem 1rem 0;
+}
+.navDiv {
+  display: flex;
+  justify-content: space-between;
 }
 
 .galleryNavContainer {
@@ -262,6 +269,21 @@
 @media (max-width: 525px) {
   .hero {
     width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .mintButton {
+    padding: 0rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .navDiv {
+    display: inline-block;
+    width: 100%;
+    min-width: 274px;
   }
 }
 
