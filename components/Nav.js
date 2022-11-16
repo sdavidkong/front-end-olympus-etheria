@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { useRouter } from "next/router";
+import Script from "next/script";
 
 const Nav = () => {
   const router = useRouter();
@@ -68,54 +69,54 @@ const Nav = () => {
             data-winter-project-id="null"
           ></button>
         </div>
-        <script
+        <Script
           src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
-        ></script>
-        <script
+        ></Script>
+        <Script
           type="text/javascript"
           src="https://unpkg.com/web3modal@1.9.8/dist/index.js"
-        ></script>
-        <script
-          type="text/javascript"
+        ></Script>
+        <Script
+          type="text/javaS"
           src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"
-        ></script>
-        <script
+        ></Script>
+        <Script
           type="text/javascript"
           src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"
-        ></script>
+        ></Script>
 
-        <script
+        <Script
           type="text/javascript"
           src="https://mintplex.xyz/embeds/v2.1/embed.js"
           data-uuid="d8565b49-ea64-4ecf-8302-2450416a99bb"
-        ></script>
+        ></Script>
       </div>
 
-      <script
+      <Script
         src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
-      ></script>
-      <script
+      ></Script>
+      <Script
         type="text/javascript"
         src="https://unpkg.com/web3modal@1.9.8/dist/index.js"
-      ></script>
-      <script
+      ></Script>
+      <Script
         type="text/javascript"
         src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"
-      ></script>
-      <script
+      ></Script>
+      <Script
         type="text/javascript"
         src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"
-      ></script>
+      ></Script>
 
-      <script
+      <Script
         type="text/javascript"
         src="https://mintplex.xyz/embeds/v2.1/embed.js"
         data-uuid="b76d562d-5058-416f-9d76-eec94bd5d523"
-      ></script>
+      ></Script>
     </nav>
   );
 };
