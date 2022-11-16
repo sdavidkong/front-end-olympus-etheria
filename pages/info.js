@@ -46,10 +46,13 @@ export default function Home() {
           The Olympus Etheria smart contract is verified on etherscan, and uses
           the ERC-721A token standard. It was created using mintplex.xyz on
           Ethereum Mainnet. The contract address is
-          <Link href="https://etherscan.io/address/0xa27dd4d203761604a252757483412b3ac1e5fe22#code">
+          <Link
+            href="https://etherscan.io/address/0xa27dd4d203761604a252757483412b3ac1e5fe22#code"
+            className={styles.contract}
+          >
             <a className={styles.navlink}>
               {" "}
-              0xA27dD4D203761604A252757483412B3ac1e5fe22
+              0xA27d D4D203 761604 A252757 483412B3 ac1e5fe22
             </a>
           </Link>
         </p>
