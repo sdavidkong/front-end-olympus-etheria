@@ -49,11 +49,11 @@ const Nav = () => {
       </ul>
       <div className={styles.mintButton}>
         <div
-          id="rampp-minting-container-d8565b49-ea64-4ecf-8302-2450416a99bb"
+          id="rampp-minting-container-f56c24c1-6f5c-47ec-8977-5197bc8b3cc1"
           class="rampp-minting-container"
         >
           <button
-            id="rampp-minting-button-d8565b49-ea64-4ecf-8302-2450416a99bb"
+            id="rampp-minting-button-f56c24c1-6f5c-47ec-8977-5197bc8b3cc1"
             class="rampp-minting-button"
             data-merkle-proof-uri="https://us-central1-nft-rampp.cloudfunctions.net/allowlist/qPevHlG2uF21bsPCQpfB/merkle/verify"
             data-styles="eyJvcGVuIjp7InRleHQiOiJNSU5UIiwic3R5bGVzIjoiYm9yZGVyOm5vbmU7d2lkdGg6IDE1cmVtO3BhZGRpbmc6MC41cmVtO2ZvbnQtc2l6ZTogMS4xMjVyZW07bGluZS1oZWlnaHQ6IDEuNzVyZW07dGV4dC1hbGlnbjogY2VudGVyO2N1cnNvcjogcG9pbnRlcjtib3JkZXItcmFkaXVzOjAuNXJlbTtjb2xvcjojMTkxYTFhO2JhY2tncm91bmQtY29sb3I6I2UxZTUwNjsifSwicGF1c2VkIjp7InRleHQiOiJNaW50JTIwQ2xvc2VkIiwic3R5bGVzIjoiYm9yZGVyOm5vbmU7d2lkdGg6IDE1cmVtO3BhZGRpbmc6MC41cmVtO2ZvbnQtc2l6ZTogMS4xMjVyZW07bGluZS1oZWlnaHQ6IDEuNzVyZW07dGV4dC1hbGlnbjogY2VudGVyO2N1cnNvcjogcG9pbnRlcjtib3JkZXItcmFkaXVzOjAuNXJlbTtjb2xvcjojNjc2NTY1O2JhY2tncm91bmQtY29sb3I6I0NDREJEQztjdXJzb3I6bm90LWFsbG93ZWQ7In0sInN1cHBseVJlYWNoZWQiOnsidGV4dCI6IkFsbCUyMFRva2VucyUyME1pbnRlZCEiLCJzdHlsZXMiOiJib3JkZXI6bm9uZTt3aWR0aDogMTVyZW07cGFkZGluZzowLjVyZW07Zm9udC1zaXplOiAxLjEyNXJlbTtsaW5lLWhlaWdodDogMS43NXJlbTt0ZXh0LWFsaWduOiBjZW50ZXI7Y3Vyc29yOiBwb2ludGVyO2JvcmRlci1yYWRpdXM6MC41cmVtO2NvbG9yOiNmZjAwMDA7YmFja2dyb3VuZC1jb2xvcjojZmZiOGI4O2N1cnNvcjpub3QtYWxsb3dlZDsifSwiZXJyb3IiOnsidGV4dCI6Ik1pbnRpbmcgVW5hdmFpbGFibGUiLCJzdHlsZXMiOiJib3JkZXI6bm9uZTt3aWR0aDogMTVyZW07cGFkZGluZzowLjVyZW07Zm9udC1zaXplOiAxLjEyNXJlbTtsaW5lLWhlaWdodDogMS43NXJlbTt0ZXh0LWFsaWduOiBjZW50ZXI7Y3Vyc29yOiBwb2ludGVyO2JvcmRlci1yYWRpdXM6MC41cmVtO2NvbG9yOiNmZjAwMDA7YmFja2dyb3VuZC1jb2xvcjojZmZiOGI4O2N1cnNvcjpub3QtYWxsb3dlZDsifSwiY2xhaW1UZXh0Ijp7InRleHQiOm51bGwsInN0eWxlcyI6ImNvbG9yOiByZ2JhKDE1NiwgMTYzLCAxNzUpO2ZvbnQtc2l6ZTogMC43NXJlbTtsaW5lLWhlaWdodDogMXJlbTt0ZXh0LWFsaWduOiBjZW50ZXI7cGFkZGluZy10b3A6IDAuMjVyZW07cGFkZGluZy1ib3R0b206IDAuMjVyZW07bWFyZ2luOjA7Zm9udC1mYW1pbHk6c2Fucy1zZXJpZjsifSwicXVhbnRpdHkiOnsidGV4dCI6bnVsbCwic3R5bGVzIjoid2lkdGg6NDBweDtjb2xvcjojZTFlNTA2O2JvcmRlci1zdHlsZTpzb2xpZDtib3JkZXItd2lkdGg6MXB4O2JvcmRlci1jb2xvcjojZTFlNTA2O2JvcmRlci1yYWRpdXM6MC41cmVtO2ZvbnQtc2l6ZToxLjNyZW07dGV4dC1hbGlnbjpjZW50ZXI7In0sIm1pbnRNZXNzYWdlIjoiV2VsY29tZSB0byB0aGUgcmVhbG0gb2YgRXRoZXJpYSEifQ=="
@@ -69,54 +69,62 @@ const Nav = () => {
             data-winter-project-id="null"
           ></button>
         </div>
-        <Script
+        <script
           src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
-        ></Script>
-        <Script
+          async
+        ></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+          defer
+        ></script>
+        <script
           type="text/javascript"
           src="https://unpkg.com/web3modal@1.9.8/dist/index.js"
-        ></Script>
-        <Script
-          type="text/javaS"
+          async
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://unpkg.com/web3modal@1.9.8/dist/index.js"
+          defer
+        ></script>
+        <script
+          type="text/javascript"
           src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"
-        ></Script>
-        <Script
+          async
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"
+          defer
+        ></script>
+        <script
           type="text/javascript"
           src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"
-        ></Script>
+          async
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"
+          defer
+        ></script>
 
-        <Script
+        <script
           type="text/javascript"
           src="https://mintplex.xyz/embeds/v2.1/embed.js"
-          data-uuid="d8565b49-ea64-4ecf-8302-2450416a99bb"
-        ></Script>
+          data-uuid="f56c24c1-6f5c-47ec-8977-5197bc8b3cc1"
+          async
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://mintplex.xyz/embeds/v2.1/embed.js"
+          data-uuid="f56c24c1-6f5c-47ec-8977-5197bc8b3cc1"
+          defer
+        ></script>
       </div>
-
-      <Script
-        src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.0-rc.0/web3.min.js"
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></Script>
-      <Script
-        type="text/javascript"
-        src="https://unpkg.com/web3modal@1.9.8/dist/index.js"
-      ></Script>
-      <Script
-        type="text/javascript"
-        src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"
-      ></Script>
-      <Script
-        type="text/javascript"
-        src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"
-      ></Script>
-
-      <Script
-        type="text/javascript"
-        src="https://mintplex.xyz/embeds/v2.1/embed.js"
-        data-uuid="b76d562d-5058-416f-9d76-eec94bd5d523"
-      ></Script>
     </nav>
   );
 };
